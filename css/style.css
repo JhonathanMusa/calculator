@@ -1,7 +1,8 @@
 body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(to right, #c22ee7, #21a7e6);
+  /* background: linear-gradient(to right, #c22ee7, #21a7e6); */
+  background-color: #aaa;
   text-align: center;
   border-radius: 5px;
 }
@@ -13,13 +14,12 @@ body {
   min-height: 100vh;
   grid-template-columns: repeat(4, 100px);
   grid-template-rows: minmax(120px, auto) repeat(5, 100px);
-
 }
 
 .container > button {
   cursor: pointer;
   font-size: 2rem;
-  border: 1px solid white;
+  border: 1px solid #aaa;
   outline: none;
   background-color: rgba(255, 255, 255, 0.75);
 }
@@ -31,7 +31,7 @@ body {
   align-items: flex-end;
   justify-content: space-around;
   flex-direction: column;
-  padding: 10px;
+  padding: 40px;
   word-wrap: break-word;
   word-break: break-all;
 }
@@ -45,4 +45,3 @@ body {
 .container > button:hover {
   background-color: rgba(255, 255, 255, 0.9);
 }
-
