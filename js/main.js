@@ -3,10 +3,10 @@ const botonNumber = document.getElementsByName("data-number");
 const botonClear = document.getElementsByName("data-clear")[0];
 const botonResult = document.getElementsByName("data-result")[0];
 const botonOperator = document.getElementsByName("data-operator");
-var result = document.getElementById("result");
-var operation = "";
-var opPrevieus = "";
-var opActual = "";
+let result = document.getElementById("result");
+let operation = "";
+let opPrevieus = "";
+let opActual = "";
 
 // Step 2: define the event for every single button
 botonNumber.forEach((boton) => {
